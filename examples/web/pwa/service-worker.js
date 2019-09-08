@@ -1,18 +1,18 @@
 var cacheName = 'barcode-reader-1';
 var filesToCache = [
-  '/javascript-barcode/examples/pwa/',
-  '/javascript-barcode/examples/pwa/index.html',
-  '/javascript-barcode/examples/pwa/app.js',
-  '/javascript-barcode/examples/pwa/style.css',
-  '/javascript-barcode/examples/pwa/favicon.ico',
-  '/javascript-barcode/examples/pwa/icons/icon-32.png',
-  '/javascript-barcode/examples/pwa/icons/icon-128.png',
-  '/javascript-barcode/examples/pwa/icons/icon-144.png',
-  '/javascript-barcode/examples/pwa/icons/icon-152.png',
-  '/javascript-barcode/examples/pwa/icons/icon-192.png',
-  '/javascript-barcode/examples/pwa/icons/icon-256.png',
-  '/javascript-barcode/examples/pwa/dbr-6.5.0.2.min.js',
-  '/javascript-barcode/examples/pwa/dbr-6.5.0.2.wasm',
+  '/javascript-barcode/examples/web/pwa/',
+  '/javascript-barcode/examples/web/pwa/index.html',
+  '/javascript-barcode/examples/web/pwa/app.js',
+  '/javascript-barcode/examples/web/pwa/style.css',
+  '/javascript-barcode/examples/web/pwa/favicon.ico',
+  '/javascript-barcode/examples/web/pwa/icons/icon-32.png',
+  '/javascript-barcode/examples/web/pwa/icons/icon-128.png',
+  '/javascript-barcode/examples/web/pwa/icons/icon-144.png',
+  '/javascript-barcode/examples/web/pwa/icons/icon-152.png',
+  '/javascript-barcode/examples/web/pwa/icons/icon-192.png',
+  '/javascript-barcode/examples/web/pwa/icons/icon-256.png',
+  '/javascript-barcode/examples/web/pwa/dbr-6.5.0.2.min.js',
+  '/javascript-barcode/examples/web/pwa/dbr-6.5.0.2.wasm',
 ];
 
 self.addEventListener('install', function(e) {
